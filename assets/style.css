@@ -1,0 +1,36 @@
+.banner {
+    height: 75px;
+    margin: 0px -10px 10px;
+    background-color: rgb(66, 196, 247);
+    border-radius: 2px;
+}
+
+.banner h2{
+    color: white;
+    padding-top: 10px;
+    margin-left: 2%;
+    display: inline-block;
+}
+
+.banner Img{
+    position: relative;
+    float: right;
+    right: 10px;
+    height: 75px;
+}
+
+.input{
+    background-color: "green";
+
+}
+
+.input:focus{
+    border: 2px solid rgb(66, 196, 247)
+}
+
+.two-columns{
+    width: 90vw;
+    display: flex;
+    flex-direction: "row";
+    justify-content: space-around;
+}
